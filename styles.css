@@ -18,6 +18,8 @@ body {
 
 .banner {
     padding: var(--padding-right);
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .hero-left {
@@ -50,11 +52,12 @@ body {
     bottom: 0px;
     width: 100%;
     text-align: center;
+    font-size: 0.8rem;
 }
 
 .form-box {
     background-color: white;
-    padding: var(--padding-right);
+    padding: 3rem var(--padding-right);
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -84,4 +87,30 @@ button[type="submit"] {
 
 .login {
     padding-left: var(--padding-right);
+}
+
+input {
+    border: 1px solid rgb(180, 180, 180);
+}
+
+input:focus {
+    outline: rgb(0, 138, 218) solid 2px;
+}
+
+button[type="submit"] {
+    color: white;
+    background-color:rgb(0, 138, 218);
+    border-radius: 10px;
+    border-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color:rgb(0, 96, 151);
+}
+
+.login a {
+    text-decoration: none;
+    color:rgb(0, 138, 218);
 }
